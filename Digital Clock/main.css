@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, rgba(13, 159, 37, 0.5), rgba(15, 189, 26, 0.5));
+}
+
+.clock {
+    max-width: 50rem;
+    width: 90%;
+    text-align: center;
+    background: linear-gradient(rgba(23, 52, 147, 0.5), rgba(107, 129, 152, 0.5));
+    font-size: 7rem;
+    padding: 7rem 5rem;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 450px) {
+    html {
+        font-size: 50%;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    html {
+        font-size: 40%;
+    }
+}
